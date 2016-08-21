@@ -2,7 +2,7 @@
 ##### T E R M  P R O J E C T  ###
 ##### T E R R A I N  G E N E R A T O R ###
  
-
+###3HEY IM MAKING THIS CHANGWE###
 import maya.cmds as cmds
 import random
 import math
