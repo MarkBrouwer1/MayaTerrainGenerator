@@ -11,15 +11,7 @@ import math
 def newScene():
     cmds.file( force=True, new=True)     
     cmds.deleteUI(myWin, window=True)   
-    #cannot figure out how to re enable buttons
-    #resulted to having the UI be deleted and the user must re initialize it
-    #mound = cmds.button(label="Create Mounds", command=('createHill()'), en=True)
-    #ditch = cmds.button(label="Create Ditchs", command=('createDitch()'), en=True)
-    #build = cmds.button(label="Create Buildings", command=('createBuildings()'), en=True)
-    #fbutton = cmds.button(label="Add Fractal Noise", command=('addNoise()'), en=True)
-    #smooth = cmds.button(label="Smooth", command=('smoothPlane()'))
-    #cmds.window(myWin, window=True)
-    #cmds.showWindow( myWin )
+
 
 #cmds.file( force=True, new=True)
 if 'myWin' in globals():
